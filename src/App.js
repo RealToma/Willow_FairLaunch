@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 import styled from "styled-components";
-import Home from "./pages/home/home";
+// import Home from "./pages/home/home";
 import Layout from "./pages/layout/layout";
+import FairLaunch from "./pages/fairlaunch/fairlaunch";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <StyledComponent>
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<FairLaunch />} />
           </Routes>
         </Layout>
       </StyledComponent>

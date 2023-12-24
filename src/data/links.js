@@ -1,8 +1,8 @@
 export const dataLinks = [
   {
     name: "Home",
-    link: "/",
-    flagLink: true,
+    link: "https://www.willowdoge.xyz/",
+    flagLink: false,
   },
   {
     name: "Tokenomics",
@@ -11,7 +11,7 @@ export const dataLinks = [
   },
   {
     name: "Swap",
-    link: "https://app.uniswap.org/swap?chain=mainnet",
+    link: "https://raydium.io/swap",
     flagLink: false,
   },
 ];
